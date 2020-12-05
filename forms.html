@@ -67,12 +67,35 @@
         <option value="fish">fish</option>
         <option value="kimch">kimch</option>
         <option value="bread">bread</option>
-</select>
+    </select>
+    </p>
+    <p>
+        <label for="love">how much do you love your pet?</label>
+        <input type="range" id="love" min="1" max="100" value="75" name="love_level">
+    </p>
+    <p>
+        <label for="request">Tell us your story !!</label>
+       <br>
+        <textarea id="request" rows="5"cols="40" name="request" placeholder="Hey I wonder your cute story"></textarea>
     </p>
 
-
-
     <button>submit</button>
+
+    <h2>Validations Domo</h2>
+    <form actoin="/dummy">
+        <label for="first">Enter first name</label>
+        <input type="text" name="first"id="first" required>
+        <p>
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" minlength="5"maxlength="20" required>
+
+        </p>
+        <p>
+            <input type="email" required>
+            <input type="url">
+        </p>
+        <button>Submit</button>
+    </form>
 
 
 
