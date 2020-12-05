@@ -47,6 +47,36 @@
         <button>Search Youtube!</button>
     </form>
 
+    <h2>More inputs!</h2>
+    <form action="/birds">
+    <input type="checkbox" name="agree_tos" id="agree"checked>
+    <label for="agree">I agree to everything</label>
+    <!--inp랑 tap: 자동완성-->
+    <p>
+        <label for="xs">XS:</label>
+        <input type="radio" name="size" id="xs" value="xs">
+        <label for="s">s</label>
+        <input type="radio" name="size" id="s" value="s">
+        <label for="M">M</label>
+        <input type="radio" name="size" id="M" value="m">
+    </p>
+    <!--같은 name이라서 3개의 동그라미중 하나만 선택가능하게됨-->
+    <p>
+    <label for="meal">Please Select an Entree</label>
+    <select name="meal" id="meal">
+        <option value="fish">fish</option>
+        <option value="kimch">kimch</option>
+        <option value="bread">bread</option>
+</select>
+    </p>
+
+
+
+    <button>submit</button>
+
+
+
+</form>
 
 </body>
 
